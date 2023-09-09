@@ -2,7 +2,6 @@
 
 ### This works
 
-
 ``` python
 works # (1)
 ```
