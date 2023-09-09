@@ -15,7 +15,7 @@ works # (1)
     1.  this annotation works fine
     ````
 
-### This shows half the (+) button and nothing happen when you click it
+### This shows half the (+) button and nothing happens when you click it
 
 <div class="annotate" markdown>
 ```mermaid

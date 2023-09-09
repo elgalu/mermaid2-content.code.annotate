@@ -18,7 +18,7 @@ plugins:
   - mermaid2:
       version: 10.4.0
       arguments:
-        securityLevel: "loose"
+        securityLevel: loose
 
 markdown_extensions:
   - pymdownx.superfences:
