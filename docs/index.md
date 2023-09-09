@@ -1,27 +1,39 @@
 # content.code.annotate glitch with mermaid2
 
-``` yaml
-theme:
-  features:
-    - content.code.annotate # (1)
+### This works
+
+
+``` python
+works # (1)
 ```
 
-1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be written in Markdown.
+1.  Annotations outside Mermaid blocks work fine
+    ````markdown
+    ``` python
+    works # (1)
+    ```
 
+    1.  this annotation works fine
+    ````
+
+### This shows half the (+) button and nothing happen when you click it
 
 <div class="annotate" markdown>
-
 ```mermaid
 graph TD
-A[Client] --> B[Load Balancer]
-B --> C[Server01]
-B --> D[Server02]
-B --> box1[An <b>important</b> <a href="http://google.com">link</a>]
+A[Client (1)] --> B[Server]
 ```
-
 </div>
 
-(1)
+1.  this annotation doesn't open
 
-1.  :man_raising_hand: I'm an annotation!
+````markdown
+<div class="annotate" markdown>
+```mermaid
+graph TD
+A[Client (1)] --> B[Server]
+```
+</div>
+
+1.  this annotation doesn't open
+````

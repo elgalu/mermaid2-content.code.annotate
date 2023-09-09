@@ -18,5 +18,11 @@ plugins:
   - mermaid2:
       version: 10.4.0
       arguments:
-        wrap: true
         securityLevel: "loose"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid

@@ -9,6 +9,7 @@ python = "^3.11"
 mkdocs = "^1.5.2"
 mkdocs-material = "^9.2.6"
 mkdocs-mermaid2-plugin = "^1.1.0"
+pymdown-extensions = "^10.3"
 
 [build-system]
 requires = ["poetry>=1.1.11"]
