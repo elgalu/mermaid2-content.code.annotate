@@ -1,5 +1,7 @@
 # content.code.annotate glitch with mermaid2
 
+Reported at <https://github.com/fralau/mkdocs-mermaid2-plugin/issues/88>
+
 ### This works
 
 ``` python
