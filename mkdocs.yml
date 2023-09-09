@@ -1,0 +1,22 @@
+site_name: content.code.annotate glitch with mermaid2
+site_url: https://www.mkdocs.org/
+site_description: content.code.annotate glitch with mermaid2
+site_author: Leo Gallucci
+
+repo_url: https://github.com/elgalu/mermaid2-content.code.annotate/
+edit_uri: blob/main/docs/
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  features:
+    - content.code.annotate
+
+plugins:
+  - mermaid2:
+      version: 10.4.0
+      arguments:
+        wrap: true
+        securityLevel: "loose"
