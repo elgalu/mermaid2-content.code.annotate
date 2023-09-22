@@ -22,7 +22,7 @@ works # (1)
 <div class="annotate" markdown>
 ```mermaid
 graph TD
-A[Client (1)] --> B[Server]
+A["Client (1)"] --> B[Server]
 ```
 </div>
 
@@ -32,7 +32,7 @@ A[Client (1)] --> B[Server]
 <div class="annotate" markdown>
 ```mermaid
 graph TD
-A[Client (1)] --> B[Server]
+A["Client (1)"] --> B[Server]
 ```
 </div>
 
