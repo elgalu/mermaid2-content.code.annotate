@@ -38,3 +38,21 @@ A["Client (1)"] --> B[Server]
 
 1.  this annotation doesn't open
 ````
+
+### Without the div, annotate does nothing
+
+```mermaid
+graph TD
+A["Client (1)"] --> B[Server]
+```
+
+1.  Without the div, annotate does nothing
+
+````markdown
+```mermaid
+graph TD
+A["Client (1)"] --> B[Server]
+```
+
+1.  Without the div, annotate does nothing
+````
